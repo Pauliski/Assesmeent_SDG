@@ -9,13 +9,6 @@ const normalizeTimeToElapse = (timeToElapse, periodType) => {
       return timeToElapse;
   }
 };
-  /* const AvgIncome = (population, Income)=>{
-    return population/Income;
-  }
-  const AverageIncome = AvgIncome(
-    data.population,
-    data.region.avgDailyIncomeInUSD
-    ); */
 const covid19ImpactEstimator = (data) => {
   const impact = {};
   const severeImpact = {};
